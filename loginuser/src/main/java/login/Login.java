@@ -8,8 +8,7 @@ public class Login {
         String senhaCadastrado = null;
 
         while (!logado){
-            String opcao = JOptionPane.showInputDialog(null, "Selecione uma opcao:\n 1 - Cadastrar\n2" +
-                    " - Logar\n 3 - Sair", "Menu - SafeLearn ", JOptionPane.PLAIN_MESSAGE);
+            String opcao = JOptionPane.showInputDialog(null,"Selecione uma opcao:\n1 - Cadastrar\n2 - Logar\n3 - Sair", "Menu - SafeLearn ", JOptionPane.QUESTION_MESSAGE);
 
             if (opcao== null || opcao.equals("3")){
                 JOptionPane.showMessageDialog(null, "Saindo...");
