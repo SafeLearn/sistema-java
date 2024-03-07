@@ -20,6 +20,7 @@ public class Login {
                     usuarioCadastrado = JOptionPane.showInputDialog(null, "Digite o nome do usúario:");
                     senhaCadastrado = JOptionPane.showInputDialog(null, "Digite a senha");
                     JOptionPane.showMessageDialog(null, "Cadastro realizado com sucesso!!");
+                    break;
                 case "2":
                     String usuario = JOptionPane.showInputDialog(null, "Digite o nome do usuário:");
                     String senha = JOptionPane.showInputDialog(null, "Digite a senha: ");
@@ -30,12 +31,12 @@ public class Login {
                         JOptionPane.showMessageDialog(null, "Login realizado!");
                         logado = true;
                     }else {
-                        JOptionPane.showMessageDialog(null, "Usuário ou senha incorreto.\n Tente novamente");
+                        JOptionPane.showMessageDialog(null, "Usuário ou senha incorreto.\n Tente novamente.");
                     }
                     break;
 
                 default:
-                    JOptionPane.showMessageDialog(null, "Opcão invalida.\n Tente novamente.");
+                    JOptionPane.showMessageDialog(null, "Opcão inválida.\n Tente novamente.");
                     break;
             }
         }
